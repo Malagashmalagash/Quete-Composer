@@ -1,0 +1,20 @@
+{
+    "name": "takne/composer",
+    "authors": [
+        {
+            "name": "Clement PAQUIN",
+            "email": "clement.paquin@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0",
+        "ehime/hello-world": "^1.0"
+            },
+
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+
+    }
+}
